@@ -1,0 +1,19 @@
+@import url("../../styles.css");
+
+h1{
+    margin-bottom: 24px;
+}
+.test--question{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.test--question p{
+    margin-bottom: 12px;
+}
+
+.test--question input{
+    margin-bottom: 10px;
+}

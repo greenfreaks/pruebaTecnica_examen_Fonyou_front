@@ -1,0 +1,5 @@
+@import url("../../styles.css");
+button{
+    width: 150px !important;
+    margin: 8px 0 8px 0;
+}

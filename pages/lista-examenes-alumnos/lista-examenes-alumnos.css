@@ -1,0 +1,30 @@
+@import url(../../styles.css);
+.examenes--disponibles{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.examenes--disponibles--item{
+    width: 30%;
+    padding: 20px;
+}
+
+.examenes--disponibles--item button{
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 886px){
+    .examenes--disponibles--item{
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .examenes--disponibles--item{
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+@import url("../../styles.css");
+
+.resultado{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado--card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    gap: 10px
+}
+
+.resultado--card button{
+    width: 60%;
+}
+
